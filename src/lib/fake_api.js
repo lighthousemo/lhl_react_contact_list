@@ -12,5 +12,5 @@ export function getContacts(callback) {
     {id: 6, name: "Donald Duck", email: "donald@gmail.com", image_url: "http://www.avatarsdb.com/avatars/donald_duck_01.gif"},
   ]
 
-  setTimeout(() => { callback(contacts) }, 300)
+  setTimeout(() => { callback(contacts) }, 1000)
 }
